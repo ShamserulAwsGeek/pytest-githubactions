@@ -33,7 +33,7 @@ jobs:
       # Step 4: Run tests
       - name: Run tests
         env:
-          PYTHONPATH: C:\Users\md.shamserul.haque\Desktop\pytest-githubactions\test\test_operations.py
+          PYTHONPATH: ./src
         run: pytest
 
 
