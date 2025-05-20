@@ -32,8 +32,8 @@ jobs:
 
       # Step 4: Run tests
       - name: Run tests
-        env:
-          PYTHONPATH: ./src
+        # env:
+        #   PYTHONPATH: ./src
         run: pytest
 
 
